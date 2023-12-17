@@ -1,0 +1,90 @@
+/* App.css */
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-counter {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question-text {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.option-item {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+label {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+label:hover {
+  background-color: #45a049;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #45a049;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.preview-button,
+.next-button,
+.submit-button,
+.restart-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.preview-button:disabled,
+.next-button:disabled,
+.submit-button:disabled,
+.restart-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.preview-button:hover,
+.next-button:hover,
+.submit-button:hover,
+.restart-button:hover {
+  background-color: #45a049;
+}

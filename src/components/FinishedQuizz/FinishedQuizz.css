@@ -1,0 +1,48 @@
+/* FinishedQuiz.css */
+.finished-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.finished-container p {
+    font-size: 18px;
+}
+
+.finished-container button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.finished-container button:hover {
+    background-color: #45a049;
+}
+
+.restart-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.restart-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+/* Ajoutez d'autres styles spécifiques au composant FinishedQuiz ici si nécessaire */
